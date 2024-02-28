@@ -1,0 +1,17 @@
+.block {
+  width: 1300px;
+  height: 310px;
+  background-color: rgba(77, 119, 79, 1);
+  display: flex;
+  justify-content: center;
+
+}
+
+.button,
+.main {
+  font-family: 'comfortaa', ui-serif;
+}
+
+.menu {
+
+}
