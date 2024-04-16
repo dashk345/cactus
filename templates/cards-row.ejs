@@ -1,0 +1,15 @@
+<div class="row row-cols-1 row-cols-sm-<%= row.length %> p<%= first ? 'b' : 'y' %>-5">
+    <% for (var i = 0; i < row.length; i++) {
+        let card = row[i] %>
+    <div class="col">
+        <div class="card h-100 shadow">
+            <div class="card-body h-100">
+                <img src="<%= card.image %>" class="card-img" alt="<%= card.name %>">
+            </div>
+            <div class="card-body">
+                <h4 class="card-title text-center"><%= card.name %></h4>
+            </div>
+        </div>
+    </div>
+    <% } %>
+</div>
